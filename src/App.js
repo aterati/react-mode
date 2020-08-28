@@ -7,7 +7,8 @@ import Welcome from './Welcome';
 import EventBinder from './EventBinding';
 import ParentComponent from './ParentComponent';
 import ConditionalCarPurchase from './ConditionalOperators';
-// import List from './ListInReact';
+import ListElements from './ListElements';
+import Stylesheet from './Stylesheet';
 
 function App() {
   return (
@@ -26,8 +27,10 @@ function App() {
 
         {/* <EventBinder /> */}
         {/* <ParentComponent /> */}
-        <ConditionalCarPurchase/>
-        {/* <List /> */}
+        {/* <ConditionalCarPurchase/> */}
+        {/* <ListElements /> */}
+
+        <Stylesheet />
 
 
       </header>
